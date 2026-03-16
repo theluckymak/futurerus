@@ -118,10 +118,15 @@ h6 {
   line-height: 1;
   font-weight: 700;
   text-transform: uppercase;
+  margin-right: auto;
 }
 
 #header .logo a {
   color: var(--text-color);
+}
+
+#header .container {
+  direction: ltr;
 }
 
 #header .logo img {
