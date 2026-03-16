@@ -210,7 +210,7 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
-        filter: '.filter-app', // Set initial filter to 'App'
+        filter: '.filter-card', // Set initial filter to invitations
       })
 
       let portfolioFilters = select('#portfolio-flters li', true)
