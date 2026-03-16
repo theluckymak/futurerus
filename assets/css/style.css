@@ -3008,3 +3008,89 @@ body {
 #footer .footer-top {
   background: linear-gradient(135deg, #1e3274 0%, #2a469a 100%);
 }
+
+/*--------------------------------------------------------------
+# Theme Refresh v2 (stronger, still professional)
+--------------------------------------------------------------*/
+body {
+  background: #eef3fb !important;
+  color: #1f2937 !important;
+}
+
+#header {
+  background: rgba(255, 255, 255, 0.95) !important;
+  border-bottom: 1px solid rgba(37, 99, 235, 0.18) !important;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08) !important;
+}
+
+#header .logo a {
+  color: #0f172a !important;
+  font-weight: 800;
+}
+
+#header.header-scrolled {
+  background: rgba(15, 23, 42, 0.94) !important;
+  box-shadow: 0 14px 34px rgba(15, 23, 42, 0.35) !important;
+}
+
+#header.header-scrolled .logo a,
+#header.header-scrolled a {
+  color: #f1f5f9 !important;
+}
+
+.nav-arabic a {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+#hero .carousel-item::before {
+  background: linear-gradient(
+    120deg,
+    rgba(2, 6, 23, 0.72) 0%,
+    rgba(15, 23, 42, 0.64) 50%,
+    rgba(37, 99, 235, 0.42) 100%
+  ) !important;
+}
+
+#hero h2,
+#hero h3 {
+  text-shadow: 0 6px 16px rgba(2, 6, 23, 0.45);
+}
+
+#hero .btn-get-started {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+  border-radius: 999px !important;
+  box-shadow: 0 10px 24px rgba(29, 78, 216, 0.35) !important;
+}
+
+.about .content,
+.services .icon-box,
+.portfolio .portfolio-wrap {
+  background: #ffffff !important;
+  border-radius: 18px !important;
+  border: 1px solid #dbe4f3 !important;
+  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08) !important;
+}
+
+.portfolio #portfolio-flters li {
+  background: #ffffff !important;
+  border: 1px solid #cfdcf5 !important;
+  border-radius: 999px !important;
+  color: #334155 !important;
+}
+
+.portfolio #portfolio-flters li.filter-active,
+.portfolio #portfolio-flters li:hover {
+  background: linear-gradient(135deg, #2563eb, #1d4ed8) !important;
+  color: #ffffff !important;
+}
+
+.counters {
+  background: linear-gradient(180deg, #ffffff 0%, #f8fbff 100%) !important;
+  border-top: 1px solid #dbe4f3 !important;
+  border-bottom: 1px solid #dbe4f3 !important;
+}
+
+#footer .footer-top {
+  background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%) !important;
+}
