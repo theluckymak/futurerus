@@ -210,7 +210,7 @@
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
         itemSelector: '.portfolio-item',
-        filter: '*', // Show invitation and visa photos by default
+        filter: '.filter-web', // Default to visa photos
       })
 
       let portfolioFilters = select('#portfolio-flters li', true)
